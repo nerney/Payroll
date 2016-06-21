@@ -145,11 +145,23 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BasePlusCommissionEmployee.h" />
+    <ClInclude Include="BasePlusCommissionEmployee2.h" />
+    <ClInclude Include="CommissionEmployee.h" />
+    <ClInclude Include="Date.h" />
+    <ClInclude Include="Employee.h" />
+    <ClInclude Include="SalariedEmployee.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="BasePlusCommissionEmployee.cpp" />
+    <ClCompile Include="BasePlusCommissionEmployee2.cpp" />
+    <ClCompile Include="CommissionEmployee.cpp" />
+    <ClCompile Include="Date.cpp" />
+    <ClCompile Include="Employee.cpp" />
     <ClCompile Include="Payroll.cpp" />
+    <ClCompile Include="SalariedEmployee.cpp" />
     <ClCompile Include="stdafx.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
