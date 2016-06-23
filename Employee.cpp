@@ -5,7 +5,7 @@ using namespace std;
 const double Employee::bonus = 100.0;
 
 Employee::Employee(const string& fn, const string& ln, const Date& bd, const string& n)
-	: first_name{fn}, last_name{ln}, birth_date{bd}, ssn{n}, total_earnings{0}
+	: first_name{ fn }, last_name{ ln }, birth_date{ bd }, ssn{ n }, total_earnings{ 0 }
 {
 }
 Employee::~Employee()
@@ -35,6 +35,7 @@ void Employee::setBday(const Date& bd)
 {
 	birth_date = bd;
 }
+
 string Employee::getSsn() const
 {
 	return ssn;

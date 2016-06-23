@@ -9,7 +9,7 @@ CommissionEmployee::CommissionEmployee(const string& fn, const string& ln, const
 	setSales(s);
 	setRate(r);
 }
-CommissionEmployee::CommissionEmployee(): CommissionEmployee(" ", " ", Date(1, 1, 1900), "000-00-000", 0.0, 0.0)
+CommissionEmployee::CommissionEmployee() : CommissionEmployee(" ", " ", Date(1, 1, 1900), "000-00-000", 0.0, 0.0)
 {
 }
 CommissionEmployee::~CommissionEmployee()

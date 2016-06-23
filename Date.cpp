@@ -3,14 +3,14 @@
 
 using namespace std;
 
-const int Date::days[] = {0,31,28,31,30,31,30,31,31,30,31,30,31};
-const string Date::months[] = {"","January","February","March","April","May","June","July","August","September","October","November","December"};
+const int Date::days[] = { 0,31,28,31,30,31,30,31,31,30,31,30,31 };
+const string Date::months[] = { "","January","February","March","April","May","June","July","August","September","October","November","December" };
 
 Date::Date(int m, int d, int y)
 {
 	setDate(m, d, y);
 }
-Date::Date():
+Date::Date() :
 	Date(1, 1, 1900)
 {
 }

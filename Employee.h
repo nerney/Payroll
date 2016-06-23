@@ -21,11 +21,12 @@ public:
 	void setLastName(const std::string&);
 	Date getBday() const;
 	void setBday(const Date&);
+	int getMonth() const;
 	std::string getSsn() const;
 	void setSsn(const std::string& ssn);
 	void addToTotal(double);
 	double getTotal() const;
 
-	virtual double earnings() const =0;
+	virtual double earnings() const = 0;
 	virtual void print() const;
 };

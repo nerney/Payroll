@@ -22,7 +22,7 @@ void testClass()
 void doPayroll(const Date& date, const vector<Employee*>& staff)
 {
 	cout << date.toString();
-	for (Employee* e: staff)
+	for (Employee* e : staff)
 	{
 		e->print();
 		cout << "This Month's Earnings: " << e->earnings() << endl;
@@ -39,7 +39,7 @@ int main()
 	staff[0] = &a;
 	staff[1] = &b;
 	staff[2] = &c;
-	for (Employee* p:staff)
+	for (Employee* p : staff)
 	{
 		p->print();
 		cout << "Earnings: " << p->earnings() << endl << endl;
