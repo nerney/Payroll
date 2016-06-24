@@ -151,8 +151,6 @@
     <ClInclude Include="Date.h" />
     <ClInclude Include="Employee.h" />
     <ClInclude Include="SalariedEmployee.h" />
-    <ClInclude Include="stdafx.h" />
-    <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BasePlusCommissionEmployee.cpp" />
@@ -162,7 +160,6 @@
     <ClCompile Include="Employee.cpp" />
     <ClCompile Include="Payroll.cpp" />
     <ClCompile Include="SalariedEmployee.cpp" />
-    <ClCompile Include="stdafx.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
