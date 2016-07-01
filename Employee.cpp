@@ -1,7 +1,7 @@
 #include "Employee.h"
 #include <iostream>
 using namespace std;
-const double Employee::bonus = 100.0;
+
 Employee::Employee(const string& fn, const string& ln, const Date& bd, const string& n)
     : first_name{ fn }, last_name{ ln }, birth_date{ bd }, ssn{ n }, total_earnings{ 0 }
 {}
